@@ -1,0 +1,42 @@
+header {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+
+button{
+	outline: 0;
+	background: none;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 15px;
+	border: 2.5px solid #10AC84;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: 0.5s;
+    transition-property: background, transform;
+    padding: 1%;
+}
+
+button:hover {
+    background: #10AC84;
+	transform: scale(1.1);
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #10AC84;
+    font-size: 400%;
+    font-family: "Candara", sans-serif;
+	padding: 10%;
+	text-align: center;
+    border-radius: 10px;
+}
+
